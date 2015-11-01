@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\equation">
+      <UniqueIdentifier>{51cf6fce-5812-49f2-ad34-1b309970bc7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\equation">
+      <UniqueIdentifier>{380a9db0-60d8-47f7-9c9f-7dcd1433d7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\matrix">
+      <UniqueIdentifier>{578dc4bb-16ea-44c9-a38c-20493adbdc38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\matrix">
+      <UniqueIdentifier>{978b7ab3-83b3-484d-ae68-d7b8a2d7c2b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\calculus">
+      <UniqueIdentifier>{cf2af566-f9a0-4091-988b-f8c9d77c68d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\calculus">
+      <UniqueIdentifier>{8db2caf1-9a87-4995-9b49-e82c25139b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\sort">
+      <UniqueIdentifier>{cc34c051-9766-46d6-a7b7-16a76832fca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sort">
+      <UniqueIdentifier>{bb3a7b53-4db3-4164-b6ab-80ab13db09b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sort.h">
+      <Filter>头文件\sort</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Equation\one_y_three_c.h">
+      <Filter>头文件\equation</Filter>
+    </ClInclude>
+    <ClInclude Include="Equation\one_y_two_c.h">
+      <Filter>头文件\equation</Filter>
+    </ClInclude>
+    <ClInclude Include="Equation\three_y_one_c.h">
+      <Filter>头文件\equation</Filter>
+    </ClInclude>
+    <ClInclude Include="Equation\two_y_one_c.h">
+      <Filter>头文件\equation</Filter>
+    </ClInclude>
+    <ClInclude Include="Equation\one_y_one_c.h">
+      <Filter>头文件\equation</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix_Mul.h">
+      <Filter>头文件\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="calculus .h">
+      <Filter>头文件\calculus</Filter>
+    </ClInclude>
+    <ClInclude Include="problem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Equation.h">
+      <Filter>头文件\equation</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Class Matrix\matrix.h">
+      <Filter>头文件\matrix</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sort_Class.cpp">
+      <Filter>源文件\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Equation\two_y_one_c.cpp">
+      <Filter>源文件\equation</Filter>
+    </ClCompile>
+    <ClCompile Include="Equation\one_y_one_c.cpp">
+      <Filter>源文件\equation</Filter>
+    </ClCompile>
+    <ClCompile Include="Equation\one_y_three_c.cpp">
+      <Filter>源文件\equation</Filter>
+    </ClCompile>
+    <ClCompile Include="Equation\one_y_two_c.cpp">
+      <Filter>源文件\equation</Filter>
+    </ClCompile>
+    <ClCompile Include="Equation\three_y_one_c.cpp">
+      <Filter>源文件\equation</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix_Mul.cpp">
+      <Filter>源文件\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="calc.cpp">
+      <Filter>源文件\calculus</Filter>
+    </ClCompile>
+    <ClCompile Include="problem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Class Matrix\matrix.cpp">
+      <Filter>源文件\matrix</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
